@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    height: 100vh;
+    background: linear-gradient(to bottom, #52defa,#B2FEFA,#e5dde6);      
+}
+
+.row {
+    background-color: #f9f9ec;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {    
+    width: 90%; 
+    background-color: #86A8E7;  
+    font-family: 'Open Sans', sans-serif; 
+    box-shadow: 5px 5px 18px #888888; 
+}
+
+.left {      
+    background: url("https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: top;      
+}
+
+.form-control {
+    border: none !important;
+    border-bottom: 1px solid #7F7FD5 !important;   
+}
+
+h3 {
+    color: #7F7FD5;
+    font-weight: 300;
+}
+
+span {
+    font-weight: 700;
+}
+
+#card-button {
+    font-weight: 700;
+    border: none;
+    color: white;
+    box-shadow: 5px 5px 18px #888888;
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer {
+    font-size: 12px;
+}
+
+@media  screen and (max-width: 768px) {
+    .row {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+         url("https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+        background-repeat: no-repeat;
+        background-size: cover;   
+        background-position: top;         
+        box-shadow: 5px 5px 18px #888888; 
+        border: #fbf5f5 1px solid;         
+    }
+
+    h3 {
+        color: #eeeef5;
+        font-weight: 300;
+    }
+
+    #card-button {
+        box-shadow: 5px 5px 18px #151515;
+    }
+
+      
+}
